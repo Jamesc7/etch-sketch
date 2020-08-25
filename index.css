@@ -1,0 +1,34 @@
+#container {
+    display: inline-grid;
+    grid-template-columns: repeat(16, auto);
+    background-color: white;
+    border-style: solid;
+    height: 75vh;
+    width:75vh;
+    
+}
+
+#btns {
+    position: relative;
+    text-align: center;
+    margin: 1rem;
+}
+
+
+.box{
+    background-color: white; 
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+}
+
+footer {
+    display: block;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 1vw;
+    width: 99%;
+}
