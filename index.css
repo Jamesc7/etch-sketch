@@ -1,3 +1,8 @@
+/*  "#" is used to refer to a specific element by ID.
+    Usually two elements don't have the same ID.
+    This refers to the id="Container" in the html file.
+    This is to style the gridbox in the center of the screen.
+*/
 #container {
     display: inline-grid;
     grid-template-columns: repeat(16, auto);
@@ -5,25 +10,36 @@
     border-style: solid;
     height: 75vh;
     width:75vh;
-    
 }
 
+/*  This is to style the buttons
+*/
 #btns {
     position: relative;
     text-align: center;
     margin: 1rem;
 }
 
-
+/* "." is used to refer to the class name of an element
+    Usually used to style more than one element.
+    This refers to the class="box", but isn't in the html file 
+    but created in the JS file.
+    This sets the individual boxes in grid to the assigned color.
+*/
 .box{
     background-color: white; 
 }
 
+/*  Also used to style the id="Container" since the element that has that ID
+    is the child of this element which has the class="wrapper"
+*/
 .wrapper {
     display: grid;
     justify-content: center;
 }
 
+/* Refers to the footer element in the html file
+*/
 footer {
     display: block;
     color: black;

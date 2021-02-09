@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--This allows HTML to access the CSS file-->
         <link rel="stylesheet" href="index.css">
     </head>
+
+
     <body>
+        <!--Div is used to separate content.
+            Here it separates the buttons and
+            the and actual box for drawing so
+            they can be styled easier in CSS
+            or coded into by the JS script.-->
+
         <div id="btns">
+            <!--These are the two buttons at the top
+                functionality is added to the "clear" button
+                in the JS script, but could be done like the
+                "setColor" button.-->
             <button id="clear">Clear Grid</button>
             <button id="setColor" onclick="setColor(this.id)">Color</button>
         </div>
+
         <div class="wrapper">
             <div id="container">
+                <!--In the JS file, there is a function that creates
+                    elements in here.-->
             </div>
         </div>
 
-
     </body>
 
+
+    <!--Normal text on the bottom of screen-->
     <footer class="foot">
         Mouse over box to color
     </footer>
+
+<!--This allows HTML to access the JS file-->
 <script type="text/javascript" src="index.js"></script>
 </html>
