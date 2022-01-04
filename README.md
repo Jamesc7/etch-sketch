@@ -1,2 +1,2 @@
 # etch-sketch
-Link to [website](https://givemeorbs.github.io/etch-sketch/) to see what it would look like
+Using basic html, css, and javascript to simulate an [etch-sketch](https://jamesc7.github.io/etch-sketch/).
